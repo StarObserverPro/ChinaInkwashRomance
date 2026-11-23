@@ -37,3 +37,21 @@ result = render_stroke(request, engine=engine)
 最新局部匹配按整课留出。从本地参考图重建训练样本库后，可运行上述四个入口。保留兴杰、艺学绘、Gathered 三折的接缝和有界校正成品，以及四折初始匹配权重。匹配权重包含网络参数和样本名，运行该路线需本地原图。仓库提供的三笔复跑可以独立执行。
 
 Blender 原型的背景裁窗及原文件写在 [sources.json](../sandboxes/blender-ink-bloom/assets/sources.json)。可从 R02 项目景片按记录裁切出背景，运行 `bake_ink.py` 或 `bake_dry.py` 再生成数据帧，由 `build_blender.py` 读取。
+
+## 供评审的后续入口
+
+从仓库根目录执行下面的命令，可用已存的结构化输入跑六笔。输出包含逐笔纸、笔及账量，写入本地 `.build/`。
+
+```sh
+python -B sandboxes/text-to-brush/replay.py sandboxes/text-to-brush/input-B.json --engine learned --output sandboxes/text-to-brush/.build/review
+```
+
+下一阶段的[配对采样雏形](../sandboxes/brush-toolbox/learning/paired_capture.py)接收以下 JSON 字段，输出纸面像素尺寸、接纸区间、沿程速度和有符号的锋尖投影。动作帧先在视频和成迹上人工配准。该入口处理标注和缺测，接纸与墨量预测仍在下一阶段实现。
+
+| 字段 | 含义 |
+| --- | --- |
+| `stroke_id`、`batch_id`、`finished_scan` | 单笔及整批留出标识，成迹图的本地相对路径或索引 |
+| `paper_mm`、`scan_shape_px` | 纸宽高和成迹栅格行列数 |
+| `hand`、`load_unit`、`contact_width_mm` | 手别、法向力单位和已知接纸宽度 |
+| `frames` | 按时间排列的 `Frame` 字段对象，`time_s`、`xy_mm`、`touching` 必填 |
+| `brush_load` | `water_mg` 和 `solids_mg` 按笔尖、左笔腹、右笔腹排列，可用 `null` 标缺测 |

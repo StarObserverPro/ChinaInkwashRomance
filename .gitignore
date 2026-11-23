@@ -40,3 +40,4 @@ __pycache__/
 !/sandboxes/text-to-brush/input-C.json
 !/sandboxes/text-to-brush/input-C-rejected.json
 !/sandboxes/text-to-brush/teaching-text.md
+!/sandboxes/text-to-brush/replay.py
