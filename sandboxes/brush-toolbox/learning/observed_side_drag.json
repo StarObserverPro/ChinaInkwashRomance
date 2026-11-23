@@ -1,0 +1,54 @@
+{
+  "xingjie-side": {
+    "source": "https://www.youtube.com/watch?v=wVZN4Prx47g&t=187s",
+    "view": "Paused 1920×1080 video displayed at 873×491. Coordinates are approximate pixels in a fixed crop referenced to browser (309, 198).",
+    "hand": "right",
+    "touch_bracket_s": [187.660418, 187.827083],
+    "lift_bracket_s": [189.660406, 189.993739],
+    "frames": [
+      {"s": 187.660418, "state": "hover", "tip": [148, 32], "root": [263, 79]},
+      {"s": 187.827083, "state": "travel", "path": [151, 41], "tip": [147, 32], "root": [244, 89]},
+      {"s": 187.993748, "state": "travel", "path": [146, 75], "tip": [130, 53], "root": [229, 110]},
+      {"s": 188.160414, "state": "travel", "path": [123, 101], "tip": [107, 84], "root": [208, 137]},
+      {"s": 188.327079, "state": "travel", "path": [100, 137], "tip": [81, 118], "root": [183, 168]},
+      {"s": 188.493745, "state": "travel", "path": [74, 172], "tip": [53, 155], "root": [156, 202]},
+      {"s": 188.660411, "state": "travel", "path": [51, 205], "tip": [28, 191], "root": [133, 234]},
+      {"s": 188.827077, "state": "travel", "path": [37, 228], "tip": [15, 216], "root": [120, 257]},
+      {"s": 188.993743, "state": "travel", "path": [32, 239], "tip": [10, 225], "root": [115, 265]},
+      {"s": 189.093743, "state": "hold", "path": [32, 239], "tip": [12, 224], "root": [115, 264]},
+      {"s": 189.660406, "state": "hold", "path": [32, 239], "tip": [12, 224], "root": [115, 264]},
+      {"s": 189.993739, "state": "released"}
+    ],
+    "notes": "Trace points approximate the visible ink front underneath the moving contact. The last path point is approximate. The silhouette of the lifted brush cannot provide pressure, height, pigment mass or absolute scale."
+  },
+  "wu-first": {
+    "source": "https://www.youtube.com/watch?v=P1Ga5dAW5uI&t=14s",
+    "view": "Native video display crop sampled once per 0.32 s. Root/ tip ambiguous during blur.",
+    "hand": "right",
+    "touch_bracket_s": [15.997509, 16.317507],
+    "lift_bracket_s": [16.637506, 16.957504],
+    "frames": [
+      {"s": 15.997509, "state": "hover", "file": "shot-05.jpg"},
+      {"s": 16.157508, "state": "travel", "path": [58, 115], "estimated_time": true},
+      {"s": 16.317507, "state": "travel", "path": [108, 124], "file": "shot-06.jpg"},
+      {"s": 16.637506, "state": "travel", "path": [175, 127], "file": "shot-07.jpg"},
+      {"s": 16.957504, "state": "released", "file": "shot-08.jpg"}
+    ],
+    "notes": "Beginning is bracketed and uses the midpoint only as a working input. A pause cannot be resolved. Brush moves out of the prior stroke before the second."
+  },
+  "wu-second": {
+    "source": "https://www.youtube.com/watch?v=P1Ga5dAW5uI&t=17s",
+    "view": "Native video display crop sampled once per 0.32 s. The second terminal region is occluded during lift.",
+    "hand": "right",
+    "touch_bracket_s": [16.957504, 17.277503],
+    "lift_bracket_s": [17.597502, 17.917504],
+    "frames": [
+      {"s": 16.957504, "state": "hover", "file": "shot-08.jpg"},
+      {"s": 17.277503, "state": "travel", "path": [54, 147], "file": "shot-09.jpg"},
+      {"s": 17.597502, "state": "travel", "path": [117, 152], "file": "shot-10.jpg"},
+      {"s": 17.757503, "state": "travel", "path": [143, 153], "estimated_time": true},
+      {"s": 17.917504, "state": "released", "file": "shot-11.jpg"}
+    ],
+    "notes": "The final path point is an estimate from the earlier motion and unoccluded endpoint. This trace does not supply a pause label. The three-pass overlap starts later and is excluded."
+  }
+}

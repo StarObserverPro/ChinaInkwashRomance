@@ -1,0 +1,885 @@
+{
+  "version": "SHUIMO_ROUTE_R02",
+  "scope": "single-eye fixed-route mid/far scenery experiment",
+  "runtime": "vanilla WebGL 1; prepainted embedded PNG assets; no CDN or per-frame brush solve",
+  "paper": [
+    0.9607843137254902,
+    0.9490196078431372,
+    0.9098039215686274
+  ],
+  "patches": [
+    {
+      "id": "F00",
+      "name": "极远天际线",
+      "case": "C00",
+      "file": "C00_R2.png",
+      "x": 0.0,
+      "z": 2400.0,
+      "base": -1800.0,
+      "w": 5300.0,
+      "h": 2420.0,
+      "relief": 0.0,
+      "strength": 0.26,
+      "body": 0.01,
+      "group": "远景",
+      "sourceV": 0.4214876033057851,
+      "textureA": "F00_ink_a.png",
+      "textureB": "F00_ink_a.png",
+      "contour": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0.4214876033057851
+        ],
+        [
+          0,
+          0.08429752066115703
+        ],
+        [
+          0.09,
+          0.042148760330578516
+        ],
+        [
+          0.16,
+          0.03371900826446281
+        ],
+        [
+          0.23,
+          0.05057851239669421
+        ],
+        [
+          0.35,
+          0.08851239669421487
+        ],
+        [
+          0.42,
+          0.06322314049586776
+        ],
+        [
+          0.49,
+          0.06743801652892562
+        ],
+        [
+          0.56,
+          0.042148760330578516
+        ],
+        [
+          0.65,
+          0.03371900826446281
+        ],
+        [
+          0.73,
+          0.05900826446280992
+        ],
+        [
+          0.81,
+          0.05057851239669421
+        ],
+        [
+          0.9,
+          0.08429752066115703
+        ],
+        [
+          0.96,
+          0.1559504132231405
+        ],
+        [
+          1,
+          0.20652892561983469
+        ],
+        [
+          1,
+          0.4214876033057851
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "grid": [
+        36,
+        24
+      ],
+      "peak_uv": [
+        0.16,
+        0.03371900826446281
+      ],
+      "edgeVariants": {
+        "legacy": {
+          "A": "F00_legacy_a.png",
+          "B": "F00_legacy_a.png"
+        },
+        "feather": {
+          "A": "F00_feather_a.png",
+          "B": "F00_feather_a.png"
+        },
+        "ink": {
+          "A": "F00_ink_a.png",
+          "B": "F00_ink_a.png"
+        }
+      },
+      "fieldTexture": "F00_fields.png",
+      "domain": [
+        -0.1,
+        1.1,
+        -0.05,
+        1.05
+      ],
+      "coverage_source": "legacy RGB cache adapter: loose semantic ROI for multi-object source caches, support closing + hole fill; not brush-native"
+    },
+    {
+      "id": "F01",
+      "name": "左后远峰",
+      "case": "T05",
+      "file": "T05_R1.png",
+      "x": -700.0,
+      "z": 1700.0,
+      "base": -1200.0,
+      "w": 1270.0,
+      "h": 1820.0,
+      "relief": 18.0,
+      "strength": 0.3,
+      "body": 0.01,
+      "group": "远景",
+      "sourceV": 0.5164835164835165,
+      "textureA": "F01_ink_a.png",
+      "textureB": "F01_ink_a.png",
+      "contour": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0.5164835164835165
+        ],
+        [
+          0.05,
+          0.4751648351648352
+        ],
+        [
+          0.14,
+          0.45450549450549454
+        ],
+        [
+          0.19,
+          0.39252747252747255
+        ],
+        [
+          0.22,
+          0.33054945054945056
+        ],
+        [
+          0.21,
+          0.2685714285714286
+        ],
+        [
+          0.18,
+          0.22208791208791212
+        ],
+        [
+          0.19,
+          0.16010989010989013
+        ],
+        [
+          0.23,
+          0.09296703296703297
+        ],
+        [
+          0.28,
+          0.04131868131868132
+        ],
+        [
+          0.33,
+          0.013428571428571429
+        ],
+        [
+          0.38,
+          0.02065934065934066
+        ],
+        [
+          0.45,
+          0.061978021978021984
+        ],
+        [
+          0.51,
+          0.09813186813186814
+        ],
+        [
+          0.58,
+          0.1187912087912088
+        ],
+        [
+          0.62,
+          0.1187912087912088
+        ],
+        [
+          0.67,
+          0.16010989010989013
+        ],
+        [
+          0.73,
+          0.17560439560439564
+        ],
+        [
+          0.79,
+          0.22725274725274727
+        ],
+        [
+          0.84,
+          0.2530769230769231
+        ],
+        [
+          0.86,
+          0.2995604395604396
+        ],
+        [
+          0.9,
+          0.33054945054945056
+        ],
+        [
+          0.92,
+          0.39252747252747255
+        ],
+        [
+          0.96,
+          0.4596703296703297
+        ],
+        [
+          1,
+          0.5164835164835165
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "grid": [
+        48,
+        52
+      ],
+      "peak_uv": [
+        0.33,
+        0.013428571428571429
+      ],
+      "edgeVariants": {
+        "legacy": {
+          "A": "F01_legacy_a.png",
+          "B": "F01_legacy_a.png"
+        },
+        "feather": {
+          "A": "F01_feather_a.png",
+          "B": "F01_feather_a.png"
+        },
+        "ink": {
+          "A": "F01_ink_a.png",
+          "B": "F01_ink_a.png"
+        }
+      },
+      "fieldTexture": "F01_fields.png",
+      "domain": [
+        -0.1,
+        1.1,
+        -0.05,
+        1.05
+      ],
+      "coverage_source": "legacy RGB cache adapter: loose semantic ROI for multi-object source caches, support closing + hole fill; not brush-native"
+    },
+    {
+      "id": "M02",
+      "name": "中央主峰",
+      "case": "T05",
+      "file": "T05_R1.png",
+      "x": 100.0,
+      "z": 880.0,
+      "base": -680.0,
+      "w": 760.0,
+      "h": 1130.0,
+      "relief": 72.0,
+      "strength": 0.82,
+      "body": 0.01,
+      "group": "中景",
+      "sourceV": 0.5398230088495575,
+      "textureA": "M02_ink_a.png",
+      "textureB": "M02_ink_b.png",
+      "contour": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0.5398230088495575
+        ],
+        [
+          0.05,
+          0.4966371681415929
+        ],
+        [
+          0.14,
+          0.47504424778761056
+        ],
+        [
+          0.19,
+          0.4102654867256637
+        ],
+        [
+          0.22,
+          0.3454867256637168
+        ],
+        [
+          0.21,
+          0.2807079646017699
+        ],
+        [
+          0.18,
+          0.2321238938053097
+        ],
+        [
+          0.19,
+          0.16734513274336282
+        ],
+        [
+          0.23,
+          0.09716814159292034
+        ],
+        [
+          0.28,
+          0.0431858407079646
+        ],
+        [
+          0.33,
+          0.014035398230088494
+        ],
+        [
+          0.38,
+          0.0215929203539823
+        ],
+        [
+          0.45,
+          0.0647787610619469
+        ],
+        [
+          0.51,
+          0.10256637168141593
+        ],
+        [
+          0.58,
+          0.12415929203539823
+        ],
+        [
+          0.62,
+          0.12415929203539823
+        ],
+        [
+          0.67,
+          0.16734513274336282
+        ],
+        [
+          0.73,
+          0.18353982300884955
+        ],
+        [
+          0.79,
+          0.23752212389380528
+        ],
+        [
+          0.84,
+          0.26451327433628313
+        ],
+        [
+          0.86,
+          0.3130973451327433
+        ],
+        [
+          0.9,
+          0.3454867256637168
+        ],
+        [
+          0.92,
+          0.4102654867256637
+        ],
+        [
+          0.96,
+          0.48044247787610617
+        ],
+        [
+          1,
+          0.5398230088495575
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "grid": [
+        48,
+        52
+      ],
+      "transition": [
+        0.39,
+        0.64
+      ],
+      "validA": [
+        0,
+        0.7
+      ],
+      "validB": [
+        0.3,
+        1
+      ],
+      "reference_views": [
+        0.18,
+        0.78
+      ],
+      "peak_uv": [
+        0.33,
+        0.014035398230088494
+      ],
+      "edgeVariants": {
+        "legacy": {
+          "A": "M02_legacy_a.png",
+          "B": "M02_legacy_b.png"
+        },
+        "feather": {
+          "A": "M02_feather_a.png",
+          "B": "M02_feather_b.png"
+        },
+        "ink": {
+          "A": "M02_ink_a.png",
+          "B": "M02_ink_b.png"
+        }
+      },
+      "fieldTexture": "M02_fields.png",
+      "domain": [
+        -0.1,
+        1.1,
+        -0.05,
+        1.05
+      ],
+      "coverage_source": "legacy RGB cache adapter: loose semantic ROI for multi-object source caches, support closing + hole fill; not brush-native"
+    },
+    {
+      "id": "M03",
+      "name": "右侧岩屏",
+      "case": "T01",
+      "file": "T01_R1.png",
+      "x": 510.0,
+      "z": 610.0,
+      "base": -480.0,
+      "w": 510.0,
+      "h": 890.0,
+      "relief": 42.0,
+      "strength": 0.73,
+      "body": 0.01,
+      "group": "中景",
+      "sourceV": 0.7303370786516854,
+      "textureA": "M03_ink_a.png",
+      "textureB": "M03_ink_a.png",
+      "contour": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0.7303370786516854
+        ],
+        [
+          0.02,
+          0.5696629213483146
+        ],
+        [
+          0.04,
+          0.3651685393258427
+        ],
+        [
+          0.07,
+          0.16797752808988764
+        ],
+        [
+          0.17,
+          0.08764044943820225
+        ],
+        [
+          0.29,
+          0.06207865168539326
+        ],
+        [
+          0.41,
+          0.08764044943820225
+        ],
+        [
+          0.48,
+          0.13876404494382022
+        ],
+        [
+          0.55,
+          0.18258426966292135
+        ],
+        [
+          0.65,
+          0.20449438202247194
+        ],
+        [
+          0.74,
+          0.26292134831460673
+        ],
+        [
+          0.8,
+          0.30674157303370786
+        ],
+        [
+          0.81,
+          0.3943820224719101
+        ],
+        [
+          0.86,
+          0.4601123595505618
+        ],
+        [
+          0.9,
+          0.5842696629213483
+        ],
+        [
+          1,
+          0.6280898876404495
+        ],
+        [
+          1,
+          0.7303370786516854
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "grid": [
+        48,
+        52
+      ],
+      "peak_uv": [
+        0.29,
+        0.06207865168539326
+      ],
+      "edgeVariants": {
+        "legacy": {
+          "A": "M03_legacy_a.png",
+          "B": "M03_legacy_a.png"
+        },
+        "feather": {
+          "A": "M03_feather_a.png",
+          "B": "M03_feather_a.png"
+        },
+        "ink": {
+          "A": "M03_ink_a.png",
+          "B": "M03_ink_a.png"
+        }
+      },
+      "fieldTexture": "M03_fields.png",
+      "domain": [
+        -0.1,
+        1.1,
+        -0.05,
+        1.05
+      ],
+      "coverage_source": "legacy RGB cache adapter: loose semantic ROI for multi-object source caches, support closing + hole fill; not brush-native"
+    },
+    {
+      "id": "M04",
+      "name": "左前坡",
+      "case": "T07",
+      "file": "T07_R1.png",
+      "x": -320.0,
+      "z": 430.0,
+      "base": -420.0,
+      "w": 610.0,
+      "h": 650.0,
+      "relief": 65.0,
+      "strength": 0.92,
+      "body": 0.01,
+      "group": "中景",
+      "sourceV": 0.6,
+      "textureA": "M04_ink_a.png",
+      "textureB": "M04_ink_a.png",
+      "contour": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0.6
+        ],
+        [
+          0,
+          0.336
+        ],
+        [
+          0.07,
+          0.252
+        ],
+        [
+          0.14,
+          0.174
+        ],
+        [
+          0.23,
+          0.162
+        ],
+        [
+          0.29,
+          0.156
+        ],
+        [
+          0.35,
+          0.11399999999999999
+        ],
+        [
+          0.4,
+          0.096
+        ],
+        [
+          0.46,
+          0.132
+        ],
+        [
+          0.52,
+          0.11399999999999999
+        ],
+        [
+          0.57,
+          0.144
+        ],
+        [
+          0.63,
+          0.174
+        ],
+        [
+          0.72,
+          0.23399999999999999
+        ],
+        [
+          0.8,
+          0.33
+        ],
+        [
+          0.88,
+          0.426
+        ],
+        [
+          0.94,
+          0.51
+        ],
+        [
+          1,
+          0.6
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "grid": [
+        48,
+        52
+      ],
+      "peak_uv": [
+        0.4,
+        0.096
+      ],
+      "edgeVariants": {
+        "legacy": {
+          "A": "M04_legacy_a.png",
+          "B": "M04_legacy_a.png"
+        },
+        "feather": {
+          "A": "M04_feather_a.png",
+          "B": "M04_feather_a.png"
+        },
+        "ink": {
+          "A": "M04_ink_a.png",
+          "B": "M04_ink_a.png"
+        }
+      },
+      "fieldTexture": "M04_fields.png",
+      "domain": [
+        -0.1,
+        1.1,
+        -0.05,
+        1.05
+      ],
+      "coverage_source": "legacy RGB cache adapter: loose semantic ROI for multi-object source caches, support closing + hole fill; not brush-native"
+    },
+    {
+      "id": "M05",
+      "name": "右下坡",
+      "case": "T10",
+      "file": "T10_R1.png",
+      "x": 295.0,
+      "z": 355.0,
+      "base": -410.0,
+      "w": 565.0,
+      "h": 530.0,
+      "relief": 36.0,
+      "strength": 0.68,
+      "body": 0.01,
+      "group": "中景",
+      "sourceV": 0.5471698113207547,
+      "textureA": "M05_ink_a.png",
+      "textureB": "M05_ink_a.png",
+      "contour": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0.5471698113207547
+        ],
+        [
+          0.04,
+          0.5143396226415093
+        ],
+        [
+          0.09,
+          0.44320754716981137
+        ],
+        [
+          0.2,
+          0.29547169811320756
+        ],
+        [
+          0.28,
+          0.1860377358490566
+        ],
+        [
+          0.38,
+          0.10943396226415095
+        ],
+        [
+          0.48,
+          0.1258490566037736
+        ],
+        [
+          0.56,
+          0.15867924528301885
+        ],
+        [
+          0.64,
+          0.18056603773584906
+        ],
+        [
+          0.72,
+          0.22981132075471697
+        ],
+        [
+          0.83,
+          0.27358490566037735
+        ],
+        [
+          0.94,
+          0.3173584905660377
+        ],
+        [
+          1,
+          0.3884905660377358
+        ],
+        [
+          1,
+          0.5471698113207547
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "grid": [
+        48,
+        52
+      ],
+      "peak_uv": [
+        0.38,
+        0.10943396226415095
+      ],
+      "edgeVariants": {
+        "legacy": {
+          "A": "M05_legacy_a.png",
+          "B": "M05_legacy_a.png"
+        },
+        "feather": {
+          "A": "M05_feather_a.png",
+          "B": "M05_feather_a.png"
+        },
+        "ink": {
+          "A": "M05_ink_a.png",
+          "B": "M05_ink_a.png"
+        }
+      },
+      "fieldTexture": "M05_fields.png",
+      "domain": [
+        -0.1,
+        1.1,
+        -0.05,
+        1.05
+      ],
+      "coverage_source": "legacy RGB cache adapter: loose semantic ROI for multi-object source caches, support closing + hole fill; not brush-native"
+    }
+  ],
+  "fog": [
+    {
+      "id": "fog_far",
+      "x": 0.0,
+      "z": 1250.0,
+      "base": -105.0,
+      "w": 3100.0,
+      "h": 370.0,
+      "opacity": 0.52
+    },
+    {
+      "id": "fog_valley",
+      "x": 45.0,
+      "z": 685.0,
+      "base": -112.0,
+      "w": 1850.0,
+      "h": 280.0,
+      "opacity": 0.45
+    },
+    {
+      "id": "fog_low",
+      "x": -60.0,
+      "z": 310.0,
+      "base": -136.0,
+      "w": 1180.0,
+      "h": 225.0,
+      "opacity": 0.48
+    },
+    {
+      "id": "fog_front",
+      "x": 20.0,
+      "z": 190.0,
+      "base": -123.0,
+      "w": 850.0,
+      "h": 190.0,
+      "opacity": 0.72
+    }
+  ],
+  "route": {
+    "yaw_limit_deg": 16,
+    "pitch_limit_deg": 7,
+    "vertical_fov_deg": 49,
+    "samples": 601
+  },
+  "source_note": "v0.19 accepted simulated mountain caches; v0.20 solver preserved but not rerun. A/B local comparison uses a pre-existing same-view R1/R2 pair, not newly generated viewpoints.",
+  "limits": [
+    "Existing low-resolution, paper-baked brush caches; no new brush solver or brush-native alpha.",
+    "Image-derived interior coverage is a provisional adapter and can fill some exterior gaps or miss open white regions.",
+    "Fixed, nonintersecting depth-layer order over the promised route; arbitrary intersecting transparent surfaces are not solved.",
+    "Hand-authored proxy depth, reference views and route remain unchanged in intent.",
+    "No 3D ink aerosol simulation, new-view repainting, near scenery, binocular VR or 360-degree claim."
+  ],
+  "coverage_note": "Carrier geometry only transports coordinates; ink, interior coverage and extent are separate. Legacy/feather are comparison modes, not geometry truth."
+}

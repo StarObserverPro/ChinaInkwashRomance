@@ -1,0 +1,14 @@
+{
+  "model": "speed",
+  "coefficients": [
+    -1.3612851669822235,
+    1.0331954144975686,
+    0.0,
+    0.0
+  ],
+  "training": [
+    "wu",
+    "youhua"
+  ],
+  "trace_count": 3
+}

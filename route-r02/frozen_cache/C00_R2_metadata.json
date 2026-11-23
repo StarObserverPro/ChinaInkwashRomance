@@ -1,0 +1,13 @@
+{
+  "case": "C00",
+  "source_cache": "shuimo_v019_viewer.html",
+  "round": 2,
+  "kind": "previously simulated ink, not museum reference pixels",
+  "underlying_reference": {
+    "artist": "沈周",
+    "title": "溪山秋色",
+    "url": "https://www.metmuseum.org/art/collection/search/45683"
+  },
+  "review": "依据实际墨迹补画 28 笔，墨量和整体对应改善；左侧局部积墨仍偏团，精细线性没有恢复。",
+  "brush_parameters_unchanged": true
+}

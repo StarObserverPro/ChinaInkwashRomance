@@ -1,0 +1,105 @@
+{
+  "paper": {
+    "id": "a4-semi-sized-xuan",
+    "width_mm": 297,
+    "height_mm": 210,
+    "description": "横放裁成 A4 的半生熟宣，标定时记录纸种和批次"
+  },
+  "sheet_coordinates": "纸面右为 +x，下为 +y。倾角从纸面法线量。方位角按笔根至笔尖的纸面投影记录，0° 向右。",
+  "spec_status": "硬毫长径取自材料讲义。中号羊毫是配对选样目标。接触宽和动作关键帧用于首轮试笔。",
+  "brushes": {
+    "small-firm": {
+      "name": "小号硬毫",
+      "nominal_exposed_length_mm": 21,
+      "nominal_diameter_mm": 8,
+      "contact_width_trials_mm": {"tip": [1, 3], "belly": [3, 5]},
+      "use": "聚锋勾线、小点、窄转折"
+    },
+    "medium-firm": {
+      "name": "中号硬毫",
+      "nominal_exposed_length_mm": 27,
+      "nominal_diameter_mm": 9,
+      "contact_width_trials_mm": {"tip": [1, 3], "belly": [5, 9], "side": [12, 16]},
+      "use": "中锋、侧锋和提按的基准笔"
+    },
+    "large-firm": {
+      "name": "大号硬毫",
+      "nominal_exposed_length_mm": 33,
+      "nominal_diameter_mm": 12,
+      "contact_width_trials_mm": {"side": [16, 24]},
+      "use": "更宽的笔腹、重按和大片接触"
+    },
+    "medium-soft": {
+      "name": "中号羊毫",
+      "nominal_exposed_length_mm": 27,
+      "nominal_diameter_mm": 9,
+      "contact_width_trials_mm": {},
+      "use": "尽量选与中号硬毫相同长径，配对量铺开、回弹与载墨"
+    }
+  },
+  "sources": {
+    "brush-book": {
+      "name": "王巍《笔墨训练教程》",
+      "publisher": "清华大学出版社",
+      "url": "https://www.tup.tsinghua.edu.cn/upload/books/yz/071995-01.pdf"
+    },
+    "inking": {
+      "name": "亚洲艺术博物馆《用墨》试笔",
+      "url": "https://education.asianart.org/wp-content/uploads/sites/6/2019/09/Inking-Techniques.pdf"
+    },
+    "tools": {
+      "name": "《传统中国画基础材料》讲义",
+      "url": "https://aitecaa.oss-cn-beijing.aliyuncs.com/UploadFile/caa/20210309/upload/file/202103/6375088436578187733273221.pdf#page=2"
+    }
+  },
+  "samples": {
+    "center": {"path": "samples/center.png", "source": "brush-book", "page": 4, "crop_xyxy": [1320, 841, 2580, 1016]},
+    "side": {"path": "samples/side.png", "source": "brush-book", "page": 4, "crop_xyxy": [1260, 1118, 1825, 2483]},
+    "side-detail": {"path": "samples/side-detail.png", "source": "brush-book", "page": 4, "crop_xyxy": [1438, 1155, 1810, 1467]},
+    "pull": {"path": "samples/pull.png", "source": "brush-book", "page": 4, "crop_xyxy": [252, 0, 1844, 463]},
+    "push": {"path": "samples/push.png", "source": "brush-book", "page": 4, "crop_xyxy": [2380, 0, 3780, 426]},
+    "press": {"path": "samples/press.png", "source": "inking", "page": 1, "example": "d", "crop_xyxy": [62, 356, 724, 449]},
+    "turn": {"path": "samples/turn.png", "source": "brush-book", "page": 5, "crop_xyxy": [3130, 94, 4073, 1215]},
+    "dot": {"path": "samples/dot.png", "source": "brush-book", "page": 6, "crop_xyxy": [3450, 206, 4500, 1146]},
+    "dry": {"path": "samples/dry.png", "source": "inking", "page": 1, "example": "e", "crop_xyxy": [86, 488, 693, 580]}
+  },
+  "template_columns": ["time_fraction", "u", "v", "compression_mm", "tilt_deg", "azimuth_deg", "roll_deg"],
+  "actions": {
+    "center": {
+      "name": "中锋", "brush_id": "medium-firm", "length_mm": 38, "duration_s": 0.60,
+      "frames": [[0,0,0,-0.18,12,180,0],[0.10,0,0,0.17,12,180,0],[0.24,0.13,0,0.22,11,180,0],[0.80,0.84,0,0.20,12,180,0],[0.96,1,0,0.03,12,180,0],[1,1,0,-0.18,12,180,0]]
+    },
+    "side": {
+      "name": "侧锋", "brush_id": "medium-firm", "length_mm": 28, "duration_s": 0.50,
+      "frames": [[0,0,0,-0.18,70,78,0],[0.12,0,0,0.42,75,78,0],[0.24,0.10,0,0.52,75,79,4],[0.68,0.72,0,0.31,70,86,8],[0.94,1,0,0.06,56,90,8],[1,1,0,-0.20,50,90,8]]
+    },
+    "pull": {
+      "name": "顺锋", "brush_id": "medium-firm", "length_mm": 38, "duration_s": 0.60,
+      "frames": [[0,0,0,-0.18,35,180,0],[0.10,0,0,0.19,35,180,0],[0.22,0.10,0,0.24,35,180,0],[0.86,0.90,0,0.21,36,180,0],[1,1,0,-0.18,40,180,0]]
+    },
+    "push": {
+      "name": "逆锋", "brush_id": "medium-firm", "length_mm": 38, "duration_s": 0.60,
+      "frames": [[0,0,0,-0.18,35,0,0],[0.10,0,0,0.19,35,0,0],[0.22,0.10,0,0.24,35,0,0],[0.86,0.90,0,0.21,36,0,0],[1,1,0,-0.18,40,0,0]]
+    },
+    "press": {
+      "name": "提按", "brush_id": "medium-firm", "length_mm": 42, "duration_s": 0.74,
+      "frames": [[0,0,0,-0.18,15,180,0],[0.10,0,0,0.11,15,180,0],[0.25,0.18,0,0.40,15,180,0],[0.42,0.39,0,0.09,16,180,0],[0.57,0.57,0,0.42,16,180,0],[0.70,0.71,0,0.10,15,180,0],[0.88,0.91,0,0.37,17,180,0],[1,1,0,-0.18,15,180,0]]
+    },
+    "turn": {
+      "name": "转折", "brush_id": "medium-firm", "length_mm": 44, "duration_s": 0.82,
+      "frames": [[0,0,0,-0.18,35,190,0],[0.08,0,0,0.28,39,190,0],[0.32,0.32,0.30,0.27,39,204,0],[0.38,0.32,0.30,0.37,46,145,9],[0.59,0.66,0.10,0.27,39,147,10],[0.64,0.66,0.10,0.34,44,192,12],[0.93,1,0.39,0.10,28,204,6],[1,1,0.39,-0.18,28,204,6]]
+    },
+    "dot": {
+      "name": "点按", "brush_id": "small-firm", "length_mm": 0, "duration_s": 0.22,
+      "frames": [[0,0,0,-0.18,23,180,0],[0.25,0,0,0.17,23,180,0],[0.50,0,0,0.33,25,180,0],[0.70,0,0,0.26,25,180,0],[1,0,0,-0.18,20,180,0]]
+    },
+    "hidden-start": {
+      "name": "藏锋起笔", "brush_id": "small-firm", "length_mm": 31, "duration_s": 0.62,
+      "frames": [[0,0,0,-0.18,14,180,0],[0.11,0,0,0.10,14,180,0],[0.20,-0.07,0.02,0.24,17,0,8],[0.31,0.10,0,0.21,15,180,6],[0.89,0.91,0,0.18,13,180,0],[1,1,0,-0.18,12,180,0]]
+    },
+    "exposed-start": {
+      "name": "露锋起笔", "brush_id": "small-firm", "length_mm": 31, "duration_s": 0.62,
+      "frames": [[0,0,0,-0.18,22,180,0],[0.10,0,0,0.02,22,180,0],[0.25,0.16,0,0.20,19,180,0],[0.88,0.90,0,0.18,15,180,0],[1,1,0,-0.18,13,180,0]]
+    }
+  }
+}

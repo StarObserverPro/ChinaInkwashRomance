@@ -1,0 +1,13 @@
+{
+  "case": "T01",
+  "source_cache": "shuimo_v019_viewer.html",
+  "round": 1,
+  "kind": "previously simulated ink, not museum reference pixels",
+  "underlying_reference": {
+    "artist": "弘仁",
+    "title": "幽谷泉声",
+    "url": "https://www.metmuseum.org/art/collection/search/40020"
+  },
+  "review": "主要岩壁轮廓和横向层面有所对应，但细勾勒被画成厚重、圆软的墨段，与弘仁的疏瘦笔性有明显距离。",
+  "brush_parameters_unchanged": true
+}

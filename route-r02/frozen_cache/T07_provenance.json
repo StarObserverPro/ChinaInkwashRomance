@@ -1,0 +1,14 @@
+{
+  "case_id": "T07",
+  "source_artwork_title": "观瀑图",
+  "artist": "马远",
+  "source": "https://www.metmuseum.org/art/collection/search/40086",
+  "cache_round": 1,
+  "cache_file": "T07_R1.png",
+  "note": "This asset is the previously generated brush simulation, NOT the reference painting.",
+  "review": "主峰上重下轻的深色轮廓和右侧支脉有所对应；大片侧锋未能形成原作斜向硬折、上实下虚的斧劈笔面，内部仍呈圆软叠块。",
+  "size_mm": [
+    18.0,
+    16.171875
+  ]
+}

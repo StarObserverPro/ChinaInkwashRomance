@@ -1,0 +1,13 @@
+{
+  "case": "T05",
+  "source_cache": "shuimo_v019_viewer.html",
+  "round": 2,
+  "kind": "previously simulated ink, not museum reference pixels",
+  "underlying_reference": {
+    "artist": "传董其昌",
+    "title": "仿米山水",
+    "url": "https://www.metmuseum.org/art/collection/search/36070"
+  },
+  "review": "淡墨反馈使三角主峰和背坡的连续明暗更完整，部分白缝收敛；仍能看见偏大的独立笔块，缺少原作均匀而有节奏的湿笔叠加。",
+  "brush_parameters_unchanged": true
+}

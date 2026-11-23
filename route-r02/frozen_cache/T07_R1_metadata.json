@@ -1,0 +1,13 @@
+{
+  "case": "T07",
+  "source_cache": "shuimo_v019_viewer.html",
+  "round": 1,
+  "kind": "previously simulated ink, not museum reference pixels",
+  "underlying_reference": {
+    "artist": "马远",
+    "title": "观瀑图",
+    "url": "https://www.metmuseum.org/art/collection/search/40086"
+  },
+  "review": "主峰上重下轻的深色轮廓和右侧支脉有所对应；大片侧锋未能形成原作斜向硬折、上实下虚的斧劈笔面，内部仍呈圆软叠块。",
+  "brush_parameters_unchanged": true
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.youtube.com/watch?v=OWpUX3ubph0&t=95s",
+  "lesson": "跟又画学国画 · 中锋侧锋详解",
+  "decoded_video_xy": [1080, 1920],
+  "player_display_crop_xywh": [640, 272, 128, 88],
+  "block_px": 8,
+  "luma_shape": [11, 16],
+  "method": "Paused YouTube player, stepped using the ordinary keyboard frame controls. Each byte is mean luma from a baseline JPEG luminance DC coefficient. Values are supported only at the displayed sampling scale.",
+  "path_stations": [[96.398226, 31], [96.731560, 52], [96.931555, 64], [97.131554, 77], [97.331553, 92], [97.531552, 108], [97.631562, 116], [97.731552, 121]],
+  "hold_last_s": 97.931551,
+  "lift_visible_by_s": 98.098217,
+  "paper_rows": [2, 7],
+  "paper_start_block": 3,
+  "trajectory_notes": "Approximate x coordinates in the display crop, read near the front of paper contact. Initial contact and full stop occur between frames. Width is estimated from the visible body at 97.33 s. Force and millimeters are not measured.",
+  "observations": [
+    {"t":88.098217,"kind":"blank","safe_until":16,"luma":"f4f1f1f1f0e8e5e2e1dedddddddddcdaf2f3efeeece6e5e0dedfdbd8dbd8d9d9eceeedebe8e6e4e1e0dcd8d6d7d3d1d5bbeaeceae7e6e3e2ded6d1d3d5d3d5d3d8c5ededeae2e0e1dcd6d4d3d3d5d5d4e9b5e9eae7e2dfdad9d4d5d5d2d7d6d4dcbae2e3e2e0dcd9d9d2d3d1d3d5d3d3afd6e2e1dedcd9d8d7d3d0d0d2d3d4d2aee2e1dddbdcdcd9d4d5d0ccd0d1d2d0d8e0ddd9dcdfd9d4d2d2d0cdcfcbd0d4dcd9d8dadcd7d7d5d1d1d0cccdcdd3d4"},
+    {"t":96.731560,"kind":"moving","safe_until":5,"luma":"f2f0f0f0eee8e2e0dfdedcdddcdcdcdaf0f1eeece9e3e3dfdddfdad8dad7d9d9e8eceada807999dfdfdcd7d6d6d3d0d5bae7e8d049322597dfd7d3d3d5d3d5d3d6c4ebe673533120bbd7d5d3d3d5d5d4e8b6e9e8c2764a1a52c8d5d6d2d8d6d4dcbbe2e2e1d1b3201e9dcfd1d3d5d3d4afd5e1e0dcd9d0391478b8cfd2d3d4d2afe2e1dcdbdad46e4c64a4c4cfd2d3d0d7dfdcd9dcded58c605891b3cdccd0d4ddd9d9dbdcd7d39d665085a5becdd4d4"},
+    {"t":96.931555,"kind":"moving","safe_until":7,"luma":"f2f1f0f0efe8e2e0e0dedcdddcdcdbdaeff1eeece9e4e2deddded9d7d9d7d9d9e8ecead980757a7f99dbd6d5d6d3d0d5bbe8e9ce4b323539229dd1d3d5d3d5d3d6c5ede4735b514e2b26bfd3d3d6d5d4e9b7e9e8c1796653391663ccd2d8d6d4dcbbe2e3e2d0bcb089192ba4cfd5d3d4b0d5e1e0dddad6d4be251687bed3d4d3afe2e1dddcdbd9d5c25b4870a9cad3d0d7dfdcd9dcded9d1c476586199b6ced4ddd9d9dbdcd7d7d4c5855f578babc6d3"},
+    {"t":97.131554,"kind":"moving","safe_until":9,"luma":"f2f1f0f0efe8e3e1dfdedcdcdcdcdbdaf1f2eeece9e4e2dedcdcd9d7d9d7d9d9eaeeebdb7f73767a706a8dd4d6d3d0d5bde9ebcd4c32363a3d441e9dd3d1d4d3d8c6ede3725c57555552272dc0d3d4d4e9b7e9e9be796c675855471371ced5d4dcbbe2e4e2d0bbb1b0bb77163daecfd4b0d6e2e1dedbd8d6d5ce991d2893c1d0afe3e2dddcdbd9d6d2d0ab584882b0cad7e0dcd9dcded8d2d0ceb2674f71a0bfdcd9d9dbdcd7d7d4d0cdb473586794b3"},
+    {"t":97.331553,"kind":"moving","safe_until":11,"luma":"f3f1f0f0efe8e5e2e0dedddddddddcdaf1f2eeedeae5e4dfdcded9d8d9d6d8d8ebeeebda7f7073776d676766a0d2cfd4bee9ebcd4c34373b3d555b3f28b8d2d1d9c6ede2725d5857585d64561e4ec9d2e9b7e9e9be796d6e6764778b3d159acddcbbe2e4e2d0bbb1b0bacdc2451061b7b1d6e2e1dfdcd9d8d7d2ccc464154aa0afe3e2dedcdcdad6d3d3cdbf81595191d8e0dcd9dcded9d3d1d0ccc18f5e498ddcd9d9dadcd7d6d4d0d0ccc197634a87"},
+    {"t":97.531552,"kind":"moving","safe_until":13,"luma":"f3f1f1f0efe8e5e2e1dfdddedededcdaf1f3f0eeeae5e4dfdcdfdbdadcd9d9d8ebeeecda7f7073766c66646a6c617cd2beeaeccc4c34373b3f565f6366501da0d8c7ede0715d59585960686a778f373ae9b7e9e9bb796d6f6a6e88a9b6ae3e12dcbbe2e4e2ceb9afafb9ced0cdc44f10b1d6e2e2dfdcdad9d8d4d0cdccc26319b0e3e2dedcdcdbd7d4d4d0c9cabb7d59d8e0dcd9dcded9d3d1d0cdcacab4855bdcd9d9dbdcd7d6d4d0d0cdcac9b59361"},
+    {"t":97.631562,"kind":"moving","safe_until":14,"luma":"f3f1f1f0efe8e5e2e1dfdddedededcdaf1f3f0eeeae5e4dfdcdedbdadcd9d9d9ebeeecda7d6d71746a6463696b676a89bdeaeccb4c34373b3f56606467698322d9c7ecdf715e5a585a60696c788faf21e9b7e9e8b9796d6f6b6f89acc8cd9421dcbbe2e4e2cdb9afb0baced1d0cead2bb1d6e2e2dfdcdad9d9d4d0cecdccae3eb0e3e2dedcdcdbd7d4d4d0c9cbcaa56ad8e0dcd9dcdfd9d3d1d0cdcacac3a09fdcd9d9dbdcd7d6d4d0d0cecbcac5a4bc"},
+    {"t":97.731552,"kind":"arrived","safe_until":14,"luma":"f3f1f1f0efe8e5e2e0dfdddededddcdaf1f3f0eeeae5e4dfdcdedbd9dcd7d9d9ebeeecda7d6d7173696462686a676e8ebeeaeccb4d34383b3f566065696a9141d9c7ecdf715e5a585a60696c7a8eb54fe9b7e9e8b9796d6f6b6f89acc8d3a83fdcbbe2e4e2cdb8afafb8cdd1d0d0b653b1d6e2e2dfdcdad9d9d5d0cececdb563b0e3e2dedcdcdbd7d4d4d0cacccbad79d8e0dcd9dcdfd9d3d1d0cecacbc4a689ddd9d9dbdcd7d6d4d0d0cecbcac7a991"},
+    {"t":97.898228,"kind":"hold","safe_until":14,"luma":"f3f1f1f0efe8e5e2e0dfdddddedcdcdaf1f3f0eeeae5e4dfdcdedbd8dbd4d6d9ebeeecd97c6c6f716761606768656aabbeeaecca4c34383c3f5661676a6a793ad9c7ecde705e5a585a60696c788d9e21eab8e9e8b8796d6f6a6e88acc7be9128dcbbe2e4e2cdb8aeaeb8cdd1d0c49f2bb1d6e2e2dfdcdbd9d9d5d0cecec0a243afe3e2dedcdcdcd7d5d5d0caccbb9f5ad8e0ddd9dcdfd9d3d2d1cfcacbb39aa3ddd9d9dbdcd7d6d4d0d0cecbcab59dc0"},
+    {"t":98.431560,"kind":"finished","safe_until":16,"luma":"f4f1f1f1efe8e5e2e0dfdddddddddcdaf0f3f0eeebe5e4dfdcddd9d6d8d2d5dae5ededd97c6a6d70646061686a6873d3b5e7ecc94c34383c3f5863696d7097d2a6aab5da705e5b595b626c707e99cad383726ee4b6796e706c708babc7d6d4d2514da3dcdfcab6adadb7cdd3d2d3d1d254b2d7d5d3dcdbdad9d6d1d0d0d2d2d0afe0d8ca58d4dcd8d5d5d0cbced0d0cdd7dfd5c14f6dd9d4d2d1cfcbcdc9cddcddd9d2c48817a3d4d0d0cecbcbcad0e2"}
+  ]
+}

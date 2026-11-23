@@ -1,0 +1,62 @@
+{
+  "far-left": {
+    "source": "route-r02/assets/F00_ink_a.png",
+    "sha256": "6d86152158c3e8601fc11715ab940d1bf0594eb3aba4c01490b0f4c6190b9cc1",
+    "crop": [
+      72,
+      46,
+      952,
+      456
+    ],
+    "size": [
+      720,
+      335
+    ]
+  },
+  "far-right": {
+    "source": "route-r02/assets/F01_ink_a.png",
+    "sha256": "e1895656e2cc6a4fac74d23aba7031b145afe5dc5670a5f0a07a2c8a9c4bcd3c",
+    "crop": [
+      77,
+      42,
+      952,
+      544
+    ],
+    "size": [
+      720,
+      413
+    ]
+  },
+  "near-bank": {
+    "source": "route-r02/assets/M04_ink_a.png",
+    "sha256": "31e60a454d178d0cea774ee1519aab27286207a46db38791f07737d5be30b325",
+    "crop": [
+      72,
+      117,
+      951,
+      621
+    ],
+    "size": [
+      720,
+      413
+    ]
+  },
+  "gesture": {
+    "path": "brush-lab/inkscape_lab/stroke_opt21.py",
+    "sha256": "953bd2a9c7dc7634a217bc38174307a0f38be1cb894da3b444d06e58d00292e5",
+    "function": "gesture"
+  },
+  "frame": {
+    "path": "brush-lab/inkscape_lab/technique_studies.py",
+    "sha256": "fb28c333fc3be98898a02ffeeb0e89bbbba4c6eefe39f3c1dba255d0ae18dd3c",
+    "function": "frame"
+  },
+  "paper": {
+    "path": "brush-lab/inkscape_lab/physics.py",
+    "sha256": "ecf732729b7a9d77daf32e31fd47b95bd713e22a1312d3756469ecbf4bfc0284",
+    "adaptations": [
+      "NumPy separable filter for the fixed paper substrate",
+      "CLI-free sandbox keeps PaperSimulation and conservative_diffusion only"
+    ]
+  }
+}

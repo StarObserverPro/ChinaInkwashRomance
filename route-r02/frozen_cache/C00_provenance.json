@@ -1,0 +1,14 @@
+{
+  "case_id": "C00",
+  "source_artwork_title": "溪山秋色",
+  "artist": "沈周",
+  "source": "https://www.metmuseum.org/art/collection/search/45683",
+  "cache_round": 2,
+  "cache_file": "C00_R2.png",
+  "note": "This asset is the previously generated brush simulation, NOT the reference painting.",
+  "review": "依据实际墨迹补画 28 笔，墨量和整体对应改善；左侧局部积墨仍偏团，精细线性没有恢复。",
+  "size_mm": [
+    18.0,
+    9.984375
+  ]
+}

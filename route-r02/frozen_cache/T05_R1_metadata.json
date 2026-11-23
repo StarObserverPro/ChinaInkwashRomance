@@ -1,0 +1,13 @@
+{
+  "case": "T05",
+  "source_cache": "shuimo_v019_viewer.html",
+  "round": 1,
+  "kind": "previously simulated ink, not museum reference pixels",
+  "underlying_reference": {
+    "artist": "传董其昌",
+    "title": "仿米山水",
+    "url": "https://www.metmuseum.org/art/collection/search/36070"
+  },
+  "review": "主峰的三角形、右侧背坡和前后峰列比较清楚；原作连续淡染仍被分成偏粗的笔块，山体内部出现过多白缝。",
+  "brush_parameters_unchanged": true
+}

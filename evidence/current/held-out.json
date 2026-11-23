@@ -1,0 +1,192 @@
+{
+  "learning_version": "strip-matching-01",
+  "source": "Original-pixel course holdouts, measurements only",
+  "seeds": [
+    19,
+    43,
+    71
+  ],
+  "folds": {
+    "xingjie": {
+      "strokes": 1,
+      "guide": "physical motion replay",
+      "training": [
+        "tup",
+        "aam",
+        "yixue",
+        "gathered"
+      ],
+      "three_draw_average": {
+        "prior": {
+          "gray": 0.3677870991744827,
+          "gap_f1_2px": 0.5916312696499015,
+          "detail_band_log10_rms": 0.43983425368090173,
+          "p90_error": 0.6250122442382412,
+          "eccentricity_error": 0.00010650819924118426,
+          "outline_error": 0.039569537406277326
+        },
+        "contextual": {
+          "gray": 0.43384419686457104,
+          "gap_f1_2px": 0.5032093876778174,
+          "detail_band_log10_rms": 0.5319163809386497,
+          "p90_error": 0.7949970572536736,
+          "eccentricity_error": 0.0002203355804987576,
+          "outline_error": 0.002013244395164917
+        },
+        "assembled": {
+          "gray": 0.41719347171127485,
+          "gap_f1_2px": 0.47289774863551964,
+          "detail_band_log10_rms": 0.5676848035668801,
+          "p90_error": 0.355686561619396,
+          "eccentricity_error": 0.0002642402617504998,
+          "outline_error": 0.029660653291140867
+        }
+      },
+      "strokes_with_any_seed_in_all_course_ranges": {}
+    },
+    "yixue": {
+      "strokes": 3,
+      "guide": "coarsened native reference",
+      "training": [
+        "tup",
+        "aam",
+        "gathered"
+      ],
+      "three_draw_average": {
+        "prior": {
+          "gray": 0.13600916801707108,
+          "gap_f1_2px": 0.8248027264511005,
+          "detail_band_log10_rms": 0.6686181865790034,
+          "p90_error": 0.5000962489522783,
+          "eccentricity_error": 0.0013790607566734892,
+          "outline_error": 0.044837221694879824
+        },
+        "contextual": {
+          "gray": 0.1854100004239733,
+          "gap_f1_2px": 0.6030457751570204,
+          "detail_band_log10_rms": 0.533687589634007,
+          "p90_error": 0.290323029372233,
+          "eccentricity_error": 0.0006427335595033328,
+          "outline_error": 0.03781633581582227
+        },
+        "assembled": {
+          "gray": 0.1854469649084309,
+          "gap_f1_2px": 0.6019294508011014,
+          "detail_band_log10_rms": 0.5362833117089957,
+          "p90_error": 0.29110693979995067,
+          "eccentricity_error": 0.0006429649337706462,
+          "outline_error": 0.037902543163684375
+        }
+      },
+      "strokes_with_any_seed_in_all_course_ranges": {
+        "real": 3,
+        "prior": 0,
+        "generic": 0,
+        "bounded_readout": 0,
+        "contextual": 0,
+        "preserve_hist_and_power": 3,
+        "assembled": 0
+      }
+    },
+    "gathered": {
+      "strokes": 5,
+      "guide": "coarsened native reference",
+      "training": [
+        "tup",
+        "aam",
+        "yixue"
+      ],
+      "three_draw_average": {
+        "prior": {
+          "gray": 0.13556114795059634,
+          "gap_f1_2px": 0.9661126567818166,
+          "detail_band_log10_rms": 0.24565267315908584,
+          "p90_error": 0.08737388387863812,
+          "eccentricity_error": 0.0013442913020240699,
+          "outline_error": 0.002332538766396499
+        },
+        "contextual": {
+          "gray": 0.1543028808532841,
+          "gap_f1_2px": 0.8155973038962813,
+          "detail_band_log10_rms": 0.30333950657380965,
+          "p90_error": 0.02339928877141171,
+          "eccentricity_error": 0.0014933112767927747,
+          "outline_error": 0.002852130840483999
+        },
+        "assembled": {
+          "gray": 0.1565818169822804,
+          "gap_f1_2px": 0.829013155924873,
+          "detail_band_log10_rms": 0.3423469748750544,
+          "p90_error": 0.0769482707604487,
+          "eccentricity_error": 0.0019095153497571036,
+          "outline_error": 0.0028368299570225826
+        }
+      },
+      "strokes_with_any_seed_in_all_course_ranges": {
+        "real": 5,
+        "prior": 2,
+        "generic": 1,
+        "bounded_readout": 0,
+        "contextual": 1,
+        "preserve_hist_and_power": 4,
+        "assembled": 0
+      }
+    }
+  },
+  "xingjie_capacity_diagnostic": {
+    "self_encoded": 0.004518000105156276,
+    "self_with_budget": 0.006810718117514942,
+    "best_patch_with_target": 0.34929251202416817,
+    "coarse_only": 0.4498795177098197
+  },
+  "xingjie_first_seed_shape": {
+    "real": {
+      "edge_rms_by_scale_and_side": [
+        0.024296533130982133,
+        0.04180078951040829,
+        0.05770485446993403,
+        0.06823004531928042
+      ],
+      "gray_profile_across": 0.5647793157337083,
+      "white_fraction": 0.03049103828613851,
+      "eccentricity": 0.9959576951319715,
+      "ink_density_p90": 3.161960439602251
+    },
+    "prior": {
+      "edge_rms_by_scale_and_side": [
+        0.017810264305181248,
+        0.025253491632048077,
+        0.052247702668542284,
+        0.060520783881869114
+      ],
+      "gray_profile_across": 0.5186598801837907,
+      "white_fraction": 0.0,
+      "eccentricity": 0.9958112065531058,
+      "ink_density_p90": 2.6270246087498372
+    },
+    "contextual": {
+      "edge_rms_by_scale_and_side": [
+        0.026561742269981026,
+        0.02990513320422378,
+        0.05882535530404862,
+        0.05840664076958527
+      ],
+      "gray_profile_across": 0.5101900082495174,
+      "white_fraction": 0.07298059379664952,
+      "eccentricity": 0.9950520511573329,
+      "ink_density_p90": 2.2811161626045493
+    },
+    "assembled": {
+      "edge_rms_by_scale_and_side": [
+        0.036778320690485214,
+        0.026942273879730583,
+        0.07455646516597614,
+        0.06092559732181954
+      ],
+      "gray_profile_across": 0.48497653146508635,
+      "white_fraction": 0.005490151686665157,
+      "eccentricity": 0.9958177922180099,
+      "ink_density_p90": 2.7835724564328297
+    }
+  }
+}

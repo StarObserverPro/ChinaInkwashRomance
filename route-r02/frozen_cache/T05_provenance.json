@@ -1,0 +1,14 @@
+{
+  "case_id": "T05",
+  "source_artwork_title": "仿米山水",
+  "artist": "传董其昌",
+  "source": "https://www.metmuseum.org/art/collection/search/36070",
+  "cache_round": 1,
+  "cache_file": "T05_R1.png",
+  "note": "This asset is the previously generated brush simulation, NOT the reference painting.",
+  "review": "主峰的三角形、右侧背坡和前后峰列比较清楚；原作连续淡染仍被分成偏粗的笔块，山体内部出现过多白缝。",
+  "size_mm": [
+    16.3125,
+    18.0
+  ]
+}

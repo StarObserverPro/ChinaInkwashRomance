@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "paper_mm": [
+    42.0,
+    28.0
+  ],
+  "shape_px": [
+    70,
+    105
+  ],
+  "dipped_once": true,
+  "strokes": [
+    {
+      "stroke": 1,
+      "pigment_before_mg": 0.76,
+      "pigment_after_mg": 0.381474420404033,
+      "physical_optical_depth": 236.5784872474794,
+      "learned_optical_depth": 236.57848724747936
+    },
+    {
+      "stroke": 2,
+      "pigment_before_mg": 0.381474420404033,
+      "pigment_after_mg": 0.19147728081920123,
+      "physical_optical_depth": 355.32669948799924,
+      "learned_optical_depth": 355.3266994879991
+    },
+    {
+      "stroke": 3,
+      "pigment_before_mg": 0.19147728081920123,
+      "pigment_after_mg": 0.09611011147505931,
+      "physical_optical_depth": 414.9311803280879,
+      "learned_optical_depth": 414.9311803280879
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "T10",
+  "source_artwork_title": "山水人物",
+  "artist": "石涛",
+  "source": "https://www.metmuseum.org/art/collection/search/49171",
+  "cache_round": 1,
+  "cache_file": "T10_R1.png",
+  "note": "This asset is the previously generated brush simulation, NOT the reference painting.",
+  "review": "拱起的石体和主要弧线有所对应；内部细皴被粗弧及大笔块替代，弧线间白缝偏宽。",
+  "size_mm": [
+    18.0,
+    13.078125
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "structure": {
+    "geometry": "laid",
+    "flux": "area",
+    "supply": "finite",
+    "release": "drain",
+    "relief": "independent",
+    "relief_um": 17.14258463574318,
+    "correlation_mm": 0.07214766206830132,
+    "supply_fraction": 0.2568729129113788,
+    "neck_law": "film"
+  },
+  "meniscus": {
+    "young_pa": 4397031474.434595,
+    "friction_coefficient": 0.4208629596655066,
+    "mechanical_tau_s": 0.006288530240590714,
+    "neck_radius_m": 2.8788126915490894e-06,
+    "contact_permeability_m2": 2.129425242869402e-16,
+    "body_feed_scale": 0.8502354145002576
+  },
+  "paper": {
+    "inplane_permeability_m2": 1.0340284185029054e-13,
+    "depth_permeability_m2": 1.104578140181388e-15
+  },
+  "interaction": {
+    "entry_capture_coarse": 0.11401735738766759,
+    "entry_capture_fine": 0.04292418160476898
+  }
+}
